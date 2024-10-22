@@ -1,6 +1,7 @@
 import react from "react";
 import reactdom from "react-dom"
 import data from "./data.json"
+import $ from "jquery";
 // export function Card(param){
 //     return(
 //         <div className={"bg-teal-300 text-yellow-200 p-2 m-4 w-40 rounded-md duration-200 hover:duration-200 hover:animate-ping "}>
@@ -60,12 +61,13 @@ export function Table(){
 }
 
 
+
 export function Card(param){
     return(
-        <div className={"bg-neutral-800 text-white p-2 m-4 w-1/6 h-50 rounded-md hover:bg-blue-700 hover:text-black hover:duration-200 duration-200 "}>
-        <img alt={"error"} src={param.link} className="" ></img>
+        <button id={param.ide} className={" btn bg-neutral-800 text-white p-2 m-4 w-1/6 h-50 rounded-md hover:bg-blue-700 hover:text-black hover:duration-200 duration-200 "}  >
+        <img alt={"error"} src={param.link} className="h-40 w-40" ></img>
            <p className="text-center">{param.name}</p>
-        </div>
+        </button>
     )
 }
 
@@ -110,6 +112,6 @@ export function Card2(param){
 
 export function User(param){
     return (
-        <p className={"text-2xl text-blue-700 font-semibold text-center"}>For - {param.name}</p>
+        <p className={"text-2xl text-blue-700 font-semibold text-center"}>{param.name}</p>
     )
 }

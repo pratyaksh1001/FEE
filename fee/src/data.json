@@ -1,4 +1,19 @@
 {
-  "hello": "how are you",
-  "name": "Pratyaksh"
+  "name": "Pratyaksh",
+  "obj-arr": [
+    {"link":"./karan.webp","name":"This is Karan Aujla","id":"l1","data": "this is karan aujla lofiubhirugbvheri;ubvnrvmnaer;o t[oubntrs;obn;buonf;obnzsd;fbr fibvfibvzdfibvsileruhv uifbvpvhuhblubh"},
+    {"link":"./sidhu.webp","name":"Sidhu Moosewala","id":"l2","data": "this is siddhu moosewala lofiubhirugbvheri;ubvnrvmnaer;o t[oubntrs;obn;buonf;obnzsd;fbr fibvfibvzdfibvsileruhv uifbvpvhuhblubh"},
+    {"link":"./arijit.jpg","name":"Arijit Singh","id":"l3","data": "this is arijit singh lofiubhirugbvheri;ubvnrvmnaer;o t[oubntrs;obn;buonf;obnzsd;fbr fibvfibvzdfibvsileruhv uifbvpvhuhblubh"},
+    {"link":"./taylor.jpg","name":"This is Taylor Swift","id":"l3","data": "this is taylor swift lofiubhirugbvheri;ubvnrvmnaer;o t[oubntrs;obn;buonf;obnzsd;fbr fibvfibvzdfibvsileruhv uifbvpvhuhblubh"},
+    {"link":"./kumar.jpg","name":"Kumar Sanu","id":"l4","data": "this is kumar sanu lofiubhirugbvheri;ubvnrvmnaer;o t[oubntrs;obn;buonf;obnzsd;fbr fibvfibvzdfibvsileruhv uifbvpvhuhblubh"},
+    {"link":"./nimrat.jpg","name":"This is Nimrat Khaira","id":"l5","data": "this is nimrat khaira lofiubhirugbvheri;ubvnrvmnaer;o t[oubntrs;obn;buonf;obnzsd;fbr fibvfibvzdfibvsileruhv uifbvpvhuhblubh"}
+  ],
+  "obj-arr2":[
+    {"link":"./karan.webp","name":"This is Karan Aujla"},
+    {"link":"./sidhu.webp","name":"Sidhu Moosewala"},
+    {"link":"./arijit.jpg","name":"Arijit Singh"},
+    {"link":"./taylor.jpg","name":"This is Taylor Swift"},
+    {"link":"./kumar.jpg","name":"Kumar Sanu"},
+    {"link":"./nimrat.jpg","name":"This is Nimrat Khaira"}
+  ]
 }
